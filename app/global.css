@@ -1,0 +1,16 @@
+:root {
+    --menu-width: 50px;
+    --content-width: calc(100vw - var(--menu-width));
+    --content-height: 100vh;
+    --titlebar-height: 40px;
+    --today-width: 260px;
+    --widget-border-width: 5px;
+    --widget-border-light: var(--widget-border-width) solid var(--mantine-color-gray-1);
+    --widget-border-dark: var(--widget-border-width) solid var(--mantine-color-gray-8);
+    --widget-background-dark: var(--mantine-color-gray-9);
+    --widget-background-light: var(--mantine-color-gray-1);
+    --widget-margin: 5px;
+    --widget-border-radius: var(--mantine-radius-sm);
+}
+
+

@@ -1,0 +1,8 @@
+.content{
+    height: var(--content-height);
+    width: calc(100vw - var(--menu-width));
+}
+
+.body{
+    background-color: light-dark(var(--mantine-color-dark-0), var(--mantine-color-dark-8))!important;
+}
