@@ -16,7 +16,5 @@ const myColor: MantineColorsTuple = [
 ];
 export const theme = createTheme({
   /* Put your mantine theme override here */
-    colors: {
-        gray: myColor,
-    },
+
 });

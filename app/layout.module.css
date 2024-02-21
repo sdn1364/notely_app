@@ -4,5 +4,5 @@
 }
 
 .body{
-    background-color: light-dark(var(--mantine-color-dark-0), var(--mantine-color-dark-8))!important;
+    background-color: light-dark(var(--mantine-color-dark-0), var(--mantine-color-dark-6))!important;
 }

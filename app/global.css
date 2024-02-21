@@ -6,7 +6,7 @@
     --today-width: 260px;
     --widget-border-width: 5px;
     --widget-border-light: var(--widget-border-width) solid var(--mantine-color-gray-1);
-    --widget-border-dark: var(--widget-border-width) solid var(--mantine-color-gray-8);
+    --widget-border-dark: var(--widget-border-width) solid var(--mantine-color-gray-7);
     --widget-background-dark: var(--mantine-color-gray-9);
     --widget-background-light: var(--mantine-color-gray-1);
     --widget-margin: 5px;
