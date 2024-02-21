@@ -1,0 +1,25 @@
+.slot {
+    width: var(--today-width);
+    height: var(--slot-height);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.divider {
+    height: 1px;
+    width: calc(var(--today-width) - 40px);
+    background-color: light-dark(var(--mantine-color-dark-2), var(--mantine-color-dark-3));
+    position: relative;
+}
+
+.divider::before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 5px;
+    top: -2px;
+    left: 0;
+    position: absolute;
+    background-color: inherit;
+}

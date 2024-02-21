@@ -11,6 +11,7 @@
     --widget-background-light: var(--mantine-color-gray-1);
     --widget-margin: 5px;
     --widget-border-radius: var(--mantine-radius-sm);
+    --slot-height: 50px;
 }
 
 
