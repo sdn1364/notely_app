@@ -18,7 +18,7 @@ export default function Today() {
             <Stack pos="relative" gap={0}>
                 <TimeSlot />
                 {
-                    range(1, 24).map((_, index) => (
+                    range(0, 23).map((_, index) => (
                         <TodaySlot key={index}>{index + 1}</TodaySlot>
                     ))
                 }
