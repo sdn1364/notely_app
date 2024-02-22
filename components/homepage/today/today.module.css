@@ -1,12 +1,11 @@
-.todayContainer{
+.todayContainer {
     height: calc(var(--content-height) - var(--widget-margin) * 2);
-    margin-top: var(--widget-margin);
+    margin-right: var(--widget-margin);
 
 }
 
 .calendarContainer {
     height: var(--today-width);
-
 }
 
 .dayScrollArea{

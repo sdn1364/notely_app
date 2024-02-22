@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b635de2-117d-4c70-a4f3-c44d6ecc0c6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/widget/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/widget/widget.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/diary/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/verticalResizeHandle/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/today.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/today.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widget/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/widget/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widget/widget.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/widget/widget.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

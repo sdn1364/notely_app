@@ -6,7 +6,7 @@ import classes from './today.module.css';
 import { Widget } from '@/components';
 
 export function Today() {
-    return <Stack className={classes.todayContainer} gap={5}>
+    return <Stack className={classes.todayContainer} gap={0}>
         <Widget className={classes.calendarContainer}>
             <DatePicker
               hideOutsideDates
