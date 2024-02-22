@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b635de2-117d-4c70-a4f3-c44d6ecc0c6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/timeSlot.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useLightDark.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/todaySlot.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/todaySlot.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/today/today.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/today.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useLightDark.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useLightDark.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,40 +73,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "create__today__section",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.stylelint": "C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "ts.external.directory.path": "C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;create__today__section&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\sdn13\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="4a4a9c56-839b-470d-a7ac-4893873860ca" />
-        <option name="reportName" value="app/qodana/2024-02-21" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\sdn13\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="4a4a9c56-839b-470d-a7ac-4893873860ca" reportId="app/qodana/2024-02-21" />
@@ -144,7 +127,9 @@
       <workItem from="1708382961642" duration="7588000" />
       <workItem from="1708391915090" duration="3788000" />
       <workItem from="1708460592243" duration="15000" />
-      <workItem from="1708541715870" duration="12761000" />
+      <workItem from="1708541715870" duration="12935000" />
+      <workItem from="1708560925515" duration="9000" />
+      <workItem from="1708632668220" duration="881000" />
     </task>
     <servers />
   </component>
