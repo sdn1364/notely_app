@@ -7,13 +7,15 @@ import classes from './today.module.css';
 import TodaySlot from './components/todaySlot';
 import TimeSlot from './components/timeSlot';
 
-export default function Today() {
-    return <Stack className={classes.todayContainer} gap={5}>
-        <Box className={classes.calendarContainer}>
+export function Today() {
+    return <Stack className={classes.todayContainer} gap={0}>
+        <Widget className={classes.calendarContainer}>
             <DatePicker
               hideOutsideDates
             />
-        </Box>
+        </Widget>
+        <Widget>
+
         <ScrollArea className={classes.dayScrollArea} scrollbarSize={5}>
             <Stack pos="relative" gap={0}>
                 <TimeSlot />
@@ -24,5 +26,6 @@ export default function Today() {
                 }
             </Stack>
         </ScrollArea>
+        </Widget>
            </Stack>;
 }
