@@ -1,7 +1,7 @@
 'use client';
 
-import { ActionIcon, Avatar, Stack, ThemeIcon, Tooltip } from '@mantine/core';
-import { IconLayoutDashboard, IconPigMoney } from '@tabler/icons-react';
+import { ActionIcon, Avatar, Stack, ThemeIcon, Tooltip, useMantineColorScheme } from '@mantine/core';
+import { IconLayoutDashboard, IconMoon, IconPigMoney, IconSun } from '@tabler/icons-react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import classes from './menu.module.css';
@@ -22,9 +22,11 @@ export default function Menu() {
         },
     ];
     const router = usePathname();
+    const { colorScheme, setColorScheme } = useMantineColorScheme();
 
     return <Stack gap={5} align="center" justify="space-between" py="md" className={classes.menu}>
         <Stack>
+
             {
                 menus.map(menu => {
                     const Icon = menu.icon;
@@ -42,8 +44,13 @@ export default function Menu() {
             }
 
         </Stack>
-        <Stack>
-            <Avatar />
+        <Stack gap={5} align="center" justify="space-between">
+            {
+                colorScheme === 'dark'
+                    ? <ActionIcon variant="subtle" onClick={() => setColorScheme('light')}><IconSun size={16} stroke={1.5} /></ActionIcon>
+                    : <ActionIcon variant="subtle" onClick={() => setColorScheme('dark')}><IconMoon size={16} stroke={1.5} /></ActionIcon>
+            }
+            <Avatar size="sm" />
         </Stack>
            </Stack>;
 }

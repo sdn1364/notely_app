@@ -2,8 +2,10 @@
 
 import { Box, ScrollArea, Stack } from '@mantine/core';
 import { DatePicker } from '@mantine/dates';
+import { range } from '@mantine/hooks';
 import classes from './today.module.css';
-import { Widget } from '@/components';
+import TodaySlot from './components/todaySlot';
+import TimeSlot from './components/timeSlot';
 
 export function Today() {
     return <Stack className={classes.todayContainer} gap={0}>
@@ -13,13 +15,17 @@ export function Today() {
             />
         </Widget>
         <Widget>
-            <div className={classes.dayScrollArea}>
+
+        <ScrollArea className={classes.dayScrollArea} scrollbarSize={5}>
+            <Stack pos="relative" gap={0}>
+                <TimeSlot />
                 {
-                    [Array(24)].map((_, index) => (
-                        <Box key={index} h={50} w={260} />
+                    range(0, 23).map((_, index) => (
+                        <TodaySlot key={index}>{index + 1}</TodaySlot>
                     ))
                 }
-            </div>
+            </Stack>
+        </ScrollArea>
         </Widget>
            </Stack>;
 }
