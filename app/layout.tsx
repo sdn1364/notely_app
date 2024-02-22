@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body className={classes.body}>
-        <MantineProvider theme={theme} forceColorScheme="dark">
+        <MantineProvider theme={theme}>
             <Notifications />
             <ModalsProvider>
 
