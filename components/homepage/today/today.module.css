@@ -6,13 +6,9 @@
 
 .calendarContainer {
     height: var(--today-width);
-    background-color: light-dark(var(--widget-background-light),var(--widget-background-dark));
-    border-radius: var(--widget-border-radius)
 
 }
 
 .dayScrollArea{
     height: calc(var(--content-height) - var(--widget-margin) * 3 - var(--today-width));
-    border-radius: var(--widget-border-radius);
-    background-color: light-dark(var(--widget-background-light),var(--widget-background-dark));
-}
+    }

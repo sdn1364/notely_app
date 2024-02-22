@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b635de2-117d-4c70-a4f3-c44d6ecc0c6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/widget/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/widget/widget.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/today.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/today.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +31,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="create_today_section" />
-                    <option name="lastUsedInstant" value="1708544745" />
+                    <option name="branchName" value="full-layout" />
+                    <option name="lastUsedInstant" value="1708635019" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1708544703" />
+                    <option name="lastUsedInstant" value="1708635005" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="create_today_section" />
+                    <option name="lastUsedInstant" value="1708544745" />
                   </RecentBranch>
                 </list>
               </option>
@@ -67,7 +73,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "create__today__section",
+    "git-widget-placeholder": "full-layout",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -78,7 +84,7 @@
     "node.js.selected.package.stylelint": "C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "ts.external.directory.path": "C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }

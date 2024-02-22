@@ -5,6 +5,7 @@ export default function HomePage() {
   return (
       <Flex direction="row">
         <Today />
+
       </Flex>
   );
 }
