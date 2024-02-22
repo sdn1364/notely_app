@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b635de2-117d-4c70-a4f3-c44d6ecc0c6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/todaySlot.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/timeSlot.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useLightDark.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/todaySlot.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/todaySlot.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/menu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/today.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/today.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +62,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -89,11 +95,28 @@
     "node.js.selected.package.stylelint": "C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\stylelint",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "ts.external.directory.path": "C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\sdn13\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="4a4a9c56-839b-470d-a7ac-4893873860ca" />
+        <option name="reportName" value="app/qodana/2024-02-21" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\sdn13\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="4a4a9c56-839b-470d-a7ac-4893873860ca" reportId="app/qodana/2024-02-21" />
+    </option>
+  </component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -121,7 +144,7 @@
       <workItem from="1708382961642" duration="7588000" />
       <workItem from="1708391915090" duration="3788000" />
       <workItem from="1708460592243" duration="15000" />
-      <workItem from="1708541715870" duration="10669000" />
+      <workItem from="1708541715870" duration="12761000" />
     </task>
     <servers />
   </component>

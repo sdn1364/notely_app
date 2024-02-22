@@ -4,7 +4,7 @@ import classes from './todaySlot.module.css';
 
 export default function TodaySlot({ children }: { children: ReactNode }) {
     return <Group gap={5} className={classes.slot}>
-        <Text fz={10}>{children} <Text span fz={7}>pm</Text></Text>
+        <Text fz={10}>{children}</Text>
         <div className={classes.divider} />
            </Group>;
 }

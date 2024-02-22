@@ -1,0 +1,9 @@
+.timeSlot {
+    width: var(--timeSlot-width);
+    height: 150px;
+    position: absolute;
+    right: 5px;
+    border-radius: var(--widget-border-radius);
+    box-shadow: var(--mantine-shadow-xs);
+    z-index: 5;
+}

@@ -4,6 +4,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    user-select: none;
+    z-index: 1!important;
 }
 
 .divider {
