@@ -2,26 +2,22 @@
 
 import { Flex } from '@mantine/core';
 import {
-    getPanelElement,
-    getPanelGroupElement,
-    getResizeHandleElement,
     Panel,
     PanelGroup,
     PanelResizeHandle,
 } from 'react-resizable-panels';
-import { useEffect, useRef } from 'react';
 import { Today, Diary, Todo, TimeBox } from '@/components';
+import classes from '@/components/global.module.css';
 
 export default function HomePage() {
     return (
-        <Flex direction="row">
-
+        <Flex direction="row" style={{ marginTop: 'var(--widget-margin)' }}>
             <Today />
-            <PanelGroup direction="horizontal">
+            <PanelGroup direction="horizontal" autoSaveId="persistence">
                 <Panel><Diary /></Panel>
-                <PanelResizeHandle />
+                <PanelResizeHandle className={classes.ResizeHandle} />
                 <Panel><Todo /></Panel>
-                <PanelResizeHandle />
+                <PanelResizeHandle className={classes.ResizeHandle} />
                 <Panel><TimeBox /></Panel>
             </PanelGroup>
         </Flex>

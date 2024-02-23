@@ -5,34 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b635de2-117d-4c70-a4f3-c44d6ecc0c6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/homepage/diary/diary.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/homepage/diary/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/homepage/timebox/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/homepage/timebox/timebox.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/homepage/todo/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/verticalResizeHandle/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/verticalResizeHandle/verticalResizeHandle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/widget/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useResize.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/global.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/finance/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/finance/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/diary/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/today/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/diary/diary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/diary/diary.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/diary/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/diary/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/timebox/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/timebox/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/today.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/today.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/menu/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/verticalResizeHandle/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/widget/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/widget/widget.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/widget/widget.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useLightDark.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useLightDark.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/widget/widget.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/widget/widget.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src-tauri/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src-tauri/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +138,7 @@
       <workItem from="1708632668220" duration="2267000" />
       <workItem from="1708642235997" duration="9000000" />
       <workItem from="1708709405403" duration="14000" />
-      <workItem from="1708725166457" duration="624000" />
+      <workItem from="1708725166457" duration="4133000" />
     </task>
     <servers />
   </component>

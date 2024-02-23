@@ -3,6 +3,7 @@ import './global.css';
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
 import '@mantine/dates/styles.css';
+import '@mantine/tiptap/styles.css';
 import { MantineProvider, ColorSchemeScript, Flex } from '@mantine/core';
 import { ModalsProvider } from '@mantine/modals';
 import { Notifications } from '@mantine/notifications';
@@ -34,7 +35,6 @@ export default function RootLayout({ children }: { children: any }) {
         <MantineProvider theme={theme}>
             <Notifications />
             <ModalsProvider>
-
                 <Flex direction="row" gap={0}>
                     <Menu />
                     <div className={classes.content}>
