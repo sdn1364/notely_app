@@ -5,9 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b635de2-117d-4c70-a4f3-c44d6ecc0c6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/homepage/diary/diary.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/diary/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/timebox/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/timebox/timebox.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/verticalResizeHandle/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/verticalResizeHandle/verticalResizeHandle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/widget/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useResize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/finance/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/finance/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/diary/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/timeSlot/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/components/todaySlot/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/today/today.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/today.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/menu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/verticalResizeHandle/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widget/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/widget/widget.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/widget/widget.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/useLightDark.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useLightDark.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src-tauri/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src-tauri/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +47,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -32,16 +59,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1708638245" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="create_today_section" />
                     <option name="lastUsedInstant" value="1708550563" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="temp_colormode_toggle" />
                     <option name="lastUsedInstant" value="1708549163" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1708544703" />
                   </RecentBranch>
                 </list>
               </option>
@@ -56,7 +83,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -77,8 +104,9 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;create__today__section&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sdn13/Desktop/Projects/notely/app_shadcn&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -88,16 +116,11 @@
     &quot;node.js.selected.package.stylelint&quot;: &quot;C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\stylelint&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\sdn13\\Desktop\\Projects\\notely\\app\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\sdn13\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="4a4a9c56-839b-470d-a7ac-4893873860ca" reportId="app/qodana/2024-02-21" />
-    </option>
-  </component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -109,6 +132,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\components\shared" />
+      <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\components\homepage" />
       <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\components" />
       <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\app\components\shared" />
     </key>
@@ -128,6 +153,9 @@
       <workItem from="1708541715870" duration="12935000" />
       <workItem from="1708560925515" duration="9000" />
       <workItem from="1708632668220" duration="2267000" />
+      <workItem from="1708642235997" duration="9000000" />
+      <workItem from="1708709405403" duration="14000" />
+      <workItem from="1708725166457" duration="624000" />
     </task>
     <servers />
   </component>
@@ -136,5 +164,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

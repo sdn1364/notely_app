@@ -2,4 +2,7 @@
     background-color: light-dark(var(--widget-background-light),var(--widget-background-dark));
     border-radius: var(--widget-border-radius);
     margin-top: var(--widget-margin);
+    margin-right: var(--widget-margin);
+    user-select: none;
+    position: relative;
 }

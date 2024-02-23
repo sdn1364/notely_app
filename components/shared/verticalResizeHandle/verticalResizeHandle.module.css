@@ -1,0 +1,9 @@
+.verticalResizeHandle {
+    width: 5px;
+    cursor: col-resize;
+    height: calc(var(--content-height) - var(--widget-margin) * 2);
+    position: absolute;
+    left: 100%;
+    top: 0;
+
+}

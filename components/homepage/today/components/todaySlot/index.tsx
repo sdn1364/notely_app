@@ -1,9 +1,11 @@
+'use client';
+
 import { Group, Text } from '@mantine/core';
 import { ReactNode } from 'react';
 import classes from './todaySlot.module.css';
 
 export default function TodaySlot({ children }: { children: ReactNode }) {
-    const pmAm = (value:number):string => {
+    const pmAm = (value: number): string => {
         let time;
         if (value >= 1 && value < 12) {
             time = 'am';

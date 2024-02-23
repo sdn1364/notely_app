@@ -1,5 +1,7 @@
+'use client';
+
 export default function FinancePage() {
-    return <>
+    return <div>
     this is finance page
-           </>;
+           </div>;
 }
