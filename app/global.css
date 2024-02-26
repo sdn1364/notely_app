@@ -1,14 +1,14 @@
 :root {
     --menu-width: 50px;
     --content-width: calc(100vw - var(--menu-width));
-    --content-height: 100vh;
+    --content-height: calc(100vh - var(--widget-margin) * 2);
     --titlebar-height: 40px;
     --today-width: 260px;
     --widget-border-width: 5px;
     --widget-border-light: var(--widget-border-width) solid var(--mantine-color-gray-1);
     --widget-border-dark: var(--widget-border-width) solid var(--mantine-color-gray-7);
-    --widget-background-dark: var(--mantine-color-gray-9);
-    --widget-background-light: var(--mantine-color-gray-1);
+    --widget-background-dark: var(--mantine-color-dark-7);
+    --widget-background-light: var(--mantine-color-white);
     --widget-margin: 5px;
     --widget-border-radius: var(--mantine-radius-sm);
     --slot-height: 50px;
@@ -16,6 +16,10 @@
     --color-resize-bar-drag: #39414d;
     --color-resize-bar-hover: #39414d66;
     --color-solid-resize-bar: #39414d;
+    --setting-modal-width: 700px;
+    --setting-modal-height: 600px;
+
+
 }
 
 

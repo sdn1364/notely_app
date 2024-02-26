@@ -1,9 +1,7 @@
 .menu {
     width: var(--menu-width);
-    height: calc(var(--content-height) - var(--widget-margin) * 2);
+    height: var(--content-height);
     margin-right: var(--widget-margin);
-    margin-top: var(--widget-margin);
-    border-radius: var(--widget-border-radius);
     background-color: light-dark(var(--widget-background-light), var(--widget-background-dark));
-
+    border-radius: var(--mantine-radius-sm);
 }

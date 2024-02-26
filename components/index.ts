@@ -4,4 +4,7 @@ export { Widget } from './shared/widget';
 export { VerticalResizeHandle } from './shared/verticalResizeHandle';
 export { Todo } from './homepage/todo';
 export { Diary } from './homepage/diary';
-export { TimeBox } from './homepage/timebox';
+export { TimeBox } from './homepage/todo/timebox';
+export { Task } from './homepage/todo/task';
+export { TodoList } from './homepage/todo/todoList';
+export { TodoGroup } from './homepage/todo/todoGroup';

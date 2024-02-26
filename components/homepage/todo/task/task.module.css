@@ -1,0 +1,9 @@
+.task {
+    width: 100%;
+    height: 50px;
+    background-color: light-dark(var(--mantine-color-dark-0), var(--mantine-color-dark-6));
+
+    &:hover{
+        background-color: light-dark(darken(var(--mantine-color-dark-0), 0.1), darken(var(--mantine-color-dark-6),0.1));
+    }
+}

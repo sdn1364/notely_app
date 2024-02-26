@@ -1,6 +1,5 @@
 .widget{
     background-color: light-dark(var(--widget-background-light),var(--widget-background-dark));
-    border-radius: var(--widget-border-radius);
     user-select: none;
-    position: relative;
+    overflow: hidden;
 }

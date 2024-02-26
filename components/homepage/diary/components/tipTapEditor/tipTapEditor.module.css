@@ -1,0 +1,25 @@
+.rte {
+
+    border: none;
+}
+
+.rteRoot {
+    height: var(--content-height);
+}
+
+.rteToolBar {
+    background-color: transparent;
+}
+
+.rteContent {
+    min-height:var(--content-height);
+    background-color: transparent;
+
+
+}
+
+.rteContentScrollArea {
+    min-height: calc(var(--content-height) - 47px);
+    max-height: calc(var(--content-height) - 47px);
+
+}

@@ -9,7 +9,7 @@
 
 .ResizeHandle[data-resize-handle-active="keyboard"],
 .ResizeHandle[data-resize-handle-active="pointer"] {
-    background-color: light-dark(var(--mantine-color-gray-5),var(--mantine-color-gray-8));
+    background-color: var(--mantine-color-blue-5);
 }
 .ResizeHandleVertical {
     height: 5px;
@@ -23,7 +23,7 @@
 
 .ResizeHandleVertical[data-resize-handle-active="keyboard"],
 .ResizeHandleVertical[data-resize-handle-active="pointer"] {
-    background-color: light-dark(var(--mantine-color-gray-5),var(--mantine-color-gray-8));
+    background-color: var(--mantine-color-blue-5);
 }
 @media (pointer: coarse) {
     .ResizeHandle {

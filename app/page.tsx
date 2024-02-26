@@ -11,14 +11,20 @@ import classes from '@/components/global.module.css';
 
 export default function HomePage() {
     return (
-        <Flex direction="row" style={{ marginTop: 'var(--widget-margin)' }}>
+        <Flex direction="row">
             <Today />
             <PanelGroup direction="horizontal" autoSaveId="persistence">
-                <Panel><Diary /></Panel>
+                <Panel
+                  maxSize={40}
+                  defaultSize={33.3333333334}
+                  minSize={33.3333333334}
+                >
+                    <Diary />
+                </Panel>
                 <PanelResizeHandle className={classes.ResizeHandle} />
-                <Panel><Todo /></Panel>
+                <Panel defaultSize={25}><Todo /></Panel>
                 <PanelResizeHandle className={classes.ResizeHandle} />
-                <Panel><TimeBox /></Panel>
+                <Panel defaultSize={25}><TimeBox /></Panel>
             </PanelGroup>
         </Flex>
     );

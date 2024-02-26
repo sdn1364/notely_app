@@ -1,8 +1,4 @@
-
-.diary{
-    height: calc(var(--content-height) - var(--widget-margin) * 2);
+.diary {
+    height: var(--content-height);
 }
 
-.rte{
-    border: none;
-}

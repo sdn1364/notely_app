@@ -10,6 +10,7 @@ export function ColorSchemeToggle() {
       <Button onClick={() => setColorScheme('light')}>Light</Button>
       <Button onClick={() => setColorScheme('dark')}>Dark</Button>
       <Button onClick={() => setColorScheme('auto')}>Auto</Button>
+
     </Group>
   );
 }

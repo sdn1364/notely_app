@@ -5,16 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b635de2-117d-4c70-a4f3-c44d6ecc0c6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/global.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/StoreProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/diary/components/tipTapEditor/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/diary/components/tipTapEditor/tipTapEditor.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/task/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/task/task.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/todo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/todoGroup/components/list/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/todoGroup/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/todoList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/homepage/todo/todoList/todoList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/settings/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/settings/settings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/widget.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ColorSchemeToggle/ColorSchemeToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ColorSchemeToggle/ColorSchemeToggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/global.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/global.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/diary/diary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/diary/diary.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/diary/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/diary/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/homepage/timebox/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/timebox/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/timebox/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/todo/timebox/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/timebox/timebox.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/todo/timebox/timebox.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/homepage/today/today.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/today/today.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/homepage/todo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/todo/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/menu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/menu/menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/menu/menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/widget/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/widget/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/widget/widget.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/widget/widget.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -115,10 +139,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\components\homepage\todo" />
+      <recent name="C:\Users\sdn13\Desktop\Projects\notely\app" />
       <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\components\shared" />
       <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\components\homepage" />
       <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\components" />
-      <recent name="C:\Users\sdn13\Desktop\Projects\notely\app\app\components\shared" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -138,7 +163,12 @@
       <workItem from="1708632668220" duration="2267000" />
       <workItem from="1708642235997" duration="9000000" />
       <workItem from="1708709405403" duration="14000" />
-      <workItem from="1708725166457" duration="4133000" />
+      <workItem from="1708725166457" duration="10559000" />
+      <workItem from="1708799610738" duration="3800000" />
+      <workItem from="1708804483260" duration="18109000" />
+      <workItem from="1708888308694" duration="1047000" />
+      <workItem from="1708906738049" duration="4313000" />
+      <workItem from="1708964790507" duration="6633000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,26 @@
+.settings {
+    width: var(--setting-modal-width);
+    height: 500px;
+    position: absolute;
+
+}
+
+.root {
+    height: 500px;
+}
+
+.list {
+    width: 200px;
+    padding-top: var(--mantine-spacing-md);
+    background-color: light-dark(lighten(var(--mantine-color-dark-0), 0.1), var(--mantine-color-dark-8))
+}
+
+.panel {
+    width: calc(var(--setting-modal-width) - 200px);
+    padding: calc(var(--mantine-spacing-xl) * 2) var(--mantine-spacing-md);
+}
+
+.tab {
+    border-radius: 0;
+    height: 50px;
+}

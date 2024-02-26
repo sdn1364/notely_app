@@ -1,0 +1,8 @@
+.todoGroup {
+    height: var(--content-height);
+    width: 250px!important;
+    max-width: 250px;
+    min-width: 250px;
+    padding: var(--mantine-spacing-xs);
+    background-color: light-dark(darken(var(--mantine-color-white), 0.05), var(--mantine-color-dark-8));
+}

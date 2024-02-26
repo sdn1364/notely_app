@@ -12,6 +12,8 @@ import dayjs from 'dayjs';
 import { theme } from '@/theme';
 import { Menu } from '@/components';
 import classes from './layout.module.css';
+import StoreProvider from '@/app/StoreProvider';
+import { Settings } from '@/components/shared/settings';
 
 dayjs.extend(utc);
 
@@ -32,17 +34,19 @@ export default function RootLayout({ children }: { children: any }) {
             />
         </head>
         <body className={classes.body}>
-        <MantineProvider theme={theme}>
-            <Notifications />
-            <ModalsProvider>
-                <Flex direction="row" gap={0}>
-                    <Menu />
-                    <div className={classes.content}>
-                        {children}
-                    </div>
-                </Flex>
-            </ModalsProvider>
-        </MantineProvider>
+        <StoreProvider>
+            <MantineProvider theme={theme}>
+                <Notifications />
+                <ModalsProvider>
+                    <Flex direction="row" gap={0} p={5}>
+                        <Menu />
+                        <div className={classes.content}>
+                            {children}
+                        </div>
+                    </Flex>
+                </ModalsProvider>
+            </MantineProvider>
+        </StoreProvider>
         </body>
         </html>
     );
